@@ -5,6 +5,6 @@ export const LINKS = {
   paper: "/blink-paper.pdf" as string | null,
   /** the Canva deck */
   presentation: "https://canva.link/71g5htsd83htaa7" as string | null,
-  /** e.g. a YouTube link once the video exists. */
-  video: null as string | null,
+  /** the demo video */
+  video: "https://youtu.be/dxx1mqeylaY" as string | null,
 };
