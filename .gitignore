@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Downloaded or regenerated data (python tasks.py prefetch, python ml/train.py build)
+data/cache/
+*.npz
+*.log
+p2.out
+
+# LaTeX build files (paper/main.pdf is kept)
+paper/*.aux
+paper/*.out
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+
+# Next.js builds next to the dev server's .next (NEXT_DIST_DIR)
+web/.next-*/
+
+# misc
+.DS_Store
+.env*

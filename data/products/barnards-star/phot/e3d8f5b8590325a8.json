@@ -1,0 +1,1 @@
+{"ra":331.191755,"dec":-56.781072,"pmra":0.0,"pmdec":0.0,"t_ref":2025.903,"exposures":[],"lightcurve":[],"unit":"mixed","saturated":false,"note":"PSF-fit flux with the SPHEREx ePSF at the motion-model position; saturated cores use relative annulus (wing) photometry, which is not calibrated to \u00b5Jy"}

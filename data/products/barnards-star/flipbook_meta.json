@@ -1,0 +1,527 @@
+{
+ "release": "SPHEREx DR1 + QR3",
+ "ra": 269.44626818996477,
+ "dec": 4.768204478798892,
+ "fov_deg": 0.10079166666666667,
+ "width": 59,
+ "height": 59,
+ "pixel_scale_arcsec": 6.15,
+ "unit": "MJy/sr",
+ "wcs": {
+  "crval": [
+   269.44626818996477,
+   4.768204478798892
+  ],
+  "crpix": [
+   30.0,
+   30.0
+  ],
+  "cdelt": [
+   -0.0017083333333333334,
+   0.0017083333333333334
+  ],
+  "ctype": [
+   "RA---TAN",
+   "DEC--TAN"
+  ]
+ },
+ "n_exposures": 358,
+ "versions": [
+  "7.0.5"
+ ],
+ "epochs": [
+  {
+   "index": 0,
+   "mjd_start": 60902.864715,
+   "mjd_end": 60923.108536,
+   "mjd_mid": 60913.16362964353,
+   "date_start": "2025-08-15",
+   "date_end": "2025-09-05",
+   "date_mid": "2025-08-26",
+   "year_mid": 2025.6497633688864,
+   "n_exposures": 108,
+   "collections": [
+    "spherex_dr1"
+   ],
+   "detectors": {
+    "D1": 19,
+    "D2": 18,
+    "D3": 18,
+    "D4": 18,
+    "D5": 18,
+    "D6": 17
+   },
+   "bands": {
+    "D1": {
+     "n": 19,
+     "wave_min_um": 0.7501960396766663,
+     "wave_max_um": 1.1073378324508667,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.263,
+      "masked_pixel_fraction": 0.517
+     },
+     "noise": 0.00523202121257782
+    },
+    "D2": {
+     "n": 18,
+     "wave_min_um": 1.101180911064148,
+     "wave_max_um": 1.6291431188583374,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.056,
+      "masked_pixel_fraction": 0.534
+     },
+     "noise": 0.005240833852440119
+    },
+    "D3": {
+     "n": 18,
+     "wave_min_um": 1.6321693658828735,
+     "wave_max_um": 2.4108569622039795,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.056,
+      "masked_pixel_fraction": 0.605
+     },
+     "noise": 0.004684279672801495
+    },
+    "D4": {
+     "n": 18,
+     "wave_min_um": 2.441138744354248,
+     "wave_max_um": 3.8006396293640137,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.111,
+      "masked_pixel_fraction": 0.761
+     },
+     "noise": 0.0033927394542843103
+    },
+    "D5": {
+     "n": 18,
+     "wave_min_um": 3.8215537071228027,
+     "wave_max_um": 4.4071173667907715,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.222,
+      "masked_pixel_fraction": 0.247
+     },
+     "noise": 0.007823765277862549
+    },
+    "D6": {
+     "n": 17,
+     "wave_min_um": 4.41851282119751,
+     "wave_max_um": 5.000946998596191,
+     "contamination": {
+      "BLOOM": 0.941,
+      "HALO": 0.235,
+      "masked_pixel_fraction": 0.137
+     },
+     "noise": 0.012189021334052086
+    },
+    "all": {
+     "n": 108,
+     "unit": "S/N",
+     "noise": 1.0,
+     "wave_min_um": 0.75,
+     "wave_max_um": 5.0
+    }
+   }
+  },
+  {
+   "index": 1,
+   "mjd_start": 60948.585339,
+   "mjd_end": 60949.267247,
+   "mjd_mid": 60948.92646355,
+   "date_start": "2025-09-30",
+   "date_end": "2025-10-01",
+   "date_mid": "2025-09-30",
+   "year_mid": 2025.7477437357534,
+   "n_exposures": 10,
+   "collections": [
+    "spherex_dr1"
+   ],
+   "detectors": {
+    "D1": 5,
+    "D2": 0,
+    "D3": 0,
+    "D4": 5,
+    "D5": 0,
+    "D6": 0
+   },
+   "bands": {
+    "D1": {
+     "n": 5,
+     "wave_min_um": 0.7501474022865295,
+     "wave_max_um": 1.056313157081604,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.4,
+      "masked_pixel_fraction": 0.509
+     },
+     "noise": 0.010675426572561264
+    },
+    "D4": {
+     "n": 5,
+     "wave_min_um": 2.4410204887390137,
+     "wave_max_um": 3.6041653156280518,
+     "contamination": {
+      "BLOOM": 1.0,
+      "masked_pixel_fraction": 0.77
+     },
+     "noise": 0.007369129452854395
+    },
+    "all": {
+     "n": 10,
+     "unit": "S/N",
+     "noise": 1.0,
+     "wave_min_um": 0.75,
+     "wave_max_um": 5.0
+    }
+   }
+  },
+  {
+   "index": 2,
+   "mjd_start": 61110.091403,
+   "mjd_end": 61124.895598,
+   "mjd_mid": 61115.81713300451,
+   "date_start": "2026-03-11",
+   "date_end": "2026-03-25",
+   "date_mid": "2026-03-16",
+   "year_mid": 2026.2049784465878,
+   "n_exposures": 111,
+   "collections": [
+    "spherex_dr1"
+   ],
+   "detectors": {
+    "D1": 18,
+    "D2": 18,
+    "D3": 19,
+    "D4": 18,
+    "D5": 19,
+    "D6": 19
+   },
+   "bands": {
+    "D1": {
+     "n": 18,
+     "wave_min_um": 0.7449612021446228,
+     "wave_max_um": 1.091889500617981,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.056,
+      "masked_pixel_fraction": 0.502
+     },
+     "noise": 0.006027614697813988
+    },
+    "D2": {
+     "n": 18,
+     "wave_min_um": 1.1183459758758545,
+     "wave_max_um": 1.6292239427566528,
+     "contamination": {
+      "BLOOM": 1.0,
+      "masked_pixel_fraction": 0.491
+     },
+     "noise": 0.005926549434661865
+    },
+    "D3": {
+     "n": 19,
+     "wave_min_um": 1.6246755123138428,
+     "wave_max_um": 2.4116291999816895,
+     "contamination": {
+      "BLOOM": 1.0,
+      "masked_pixel_fraction": 0.679
+     },
+     "noise": 0.006009929813444614
+    },
+    "D4": {
+     "n": 18,
+     "wave_min_um": 2.4298083782196045,
+     "wave_max_um": 3.7386746406555176,
+     "contamination": {
+      "BLOOM": 1.0,
+      "masked_pixel_fraction": 0.786
+     },
+     "noise": 0.0038634631782770157
+    },
+    "D5": {
+     "n": 19,
+     "wave_min_um": 3.8106443881988525,
+     "wave_max_um": 4.407473087310791,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.211,
+      "masked_pixel_fraction": 0.241
+     },
+     "noise": 0.008856374770402908
+    },
+    "D6": {
+     "n": 19,
+     "wave_min_um": 4.412135601043701,
+     "wave_max_um": 5.002305030822754,
+     "contamination": {
+      "BLOOM": 0.895,
+      "HALO": 0.053,
+      "masked_pixel_fraction": 0.15
+     },
+     "noise": 0.013524152338504791
+    },
+    "all": {
+     "n": 111,
+     "unit": "S/N",
+     "noise": 1.0,
+     "wave_min_um": 0.75,
+     "wave_max_um": 5.0
+    }
+   }
+  },
+  {
+   "index": 3,
+   "mjd_start": 61140.030061,
+   "mjd_end": 61140.031393,
+   "mjd_mid": 61140.030727,
+   "date_start": "2026-04-10",
+   "date_end": "2026-04-10",
+   "date_mid": "2026-04-10",
+   "year_mid": 2026.271317060274,
+   "n_exposures": 2,
+   "collections": [
+    "spherex_dr1"
+   ],
+   "detectors": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 1,
+    "D4": 0,
+    "D5": 0,
+    "D6": 1
+   },
+   "bands": {
+    "D3": {
+     "n": 1,
+     "wave_min_um": 1.793392300605774,
+     "wave_max_um": 1.793392300605774,
+     "contamination": {
+      "BLOOM": 1.0,
+      "masked_pixel_fraction": 0.395
+     },
+     "noise": 0.019878748804330826
+    },
+    "D6": {
+     "n": 1,
+     "wave_min_um": 4.551105976104736,
+     "wave_max_um": 4.551105976104736,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 1.0,
+      "masked_pixel_fraction": 0.16
+     },
+     "noise": 0.046757474541664124
+    },
+    "all": {
+     "n": 2,
+     "unit": "S/N",
+     "noise": 1.0,
+     "wave_min_um": 0.75,
+     "wave_max_um": 5.0
+    }
+   }
+  },
+  {
+   "index": 4,
+   "mjd_start": 61164.133134,
+   "mjd_end": 61165.084304,
+   "mjd_mid": 61164.67625225,
+   "date_start": "2026-05-04",
+   "date_end": "2026-05-05",
+   "date_mid": "2026-05-04",
+   "year_mid": 2026.3388390472603,
+   "n_exposures": 8,
+   "collections": [
+    "spherex_dr1"
+   ],
+   "detectors": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 4,
+    "D4": 0,
+    "D5": 0,
+    "D6": 4
+   },
+   "bands": {
+    "D3": {
+     "n": 4,
+     "wave_min_um": 2.1064093112945557,
+     "wave_max_um": 2.2562930583953857,
+     "contamination": {
+      "BLOOM": 1.0,
+      "masked_pixel_fraction": 0.645
+     },
+     "noise": 0.009519210085272789
+    },
+    "D6": {
+     "n": 4,
+     "wave_min_um": 4.789150238037109,
+     "wave_max_um": 4.894011974334717,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.5,
+      "masked_pixel_fraction": 0.139
+     },
+     "noise": 0.026616834104061127
+    },
+    "all": {
+     "n": 8,
+     "unit": "S/N",
+     "noise": 1.0,
+     "wave_min_um": 0.75,
+     "wave_max_um": 5.0
+    }
+   }
+  },
+  {
+   "index": 5,
+   "mjd_start": 61268.630812,
+   "mjd_end": 61285.258368,
+   "mjd_mid": 61274.09709174788,
+   "date_start": "2026-08-16",
+   "date_end": "2026-09-02",
+   "date_mid": "2026-08-22",
+   "year_mid": 2026.6386221691723,
+   "n_exposures": 117,
+   "collections": [
+    "spherex_qr3"
+   ],
+   "detectors": {
+    "D1": 18,
+    "D2": 24,
+    "D3": 17,
+    "D4": 18,
+    "D5": 23,
+    "D6": 17
+   },
+   "bands": {
+    "D1": {
+     "n": 18,
+     "wave_min_um": 0.7412771582603455,
+     "wave_max_um": 1.0969412326812744,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.056,
+      "masked_pixel_fraction": 0.501
+     },
+     "noise": 0.005302476231008768
+    },
+    "D2": {
+     "n": 24,
+     "wave_min_um": 1.0877090692520142,
+     "wave_max_um": 1.6605050563812256,
+     "contamination": {
+      "BLOOM": 1.0,
+      "masked_pixel_fraction": 0.63
+     },
+     "noise": 0.004700309596955776
+    },
+    "D3": {
+     "n": 17,
+     "wave_min_um": 1.6500903367996216,
+     "wave_max_um": 2.378580093383789,
+     "contamination": {
+      "BLOOM": 1.0,
+      "HALO": 0.059,
+      "masked_pixel_fraction": 0.6
+     },
+     "noise": 0.0047408780083060265
+    },
+    "D4": {
+     "n": 18,
+     "wave_min_um": 2.4185431003570557,
+     "wave_max_um": 3.7613461017608643,
+     "contamination": {
+      "BLOOM": 1.0,
+      "masked_pixel_fraction": 0.74
+     },
+     "noise": 0.0034351276699453592
+    },
+    "D5": {
+     "n": 23,
+     "wave_min_um": 3.8039705753326416,
+     "wave_max_um": 4.429323196411133,
+     "contamination": {
+      "BLOOM": 0.957,
+      "HALO": 0.304,
+      "masked_pixel_fraction": 0.23
+     },
+     "noise": 0.0069729033857584
+    },
+    "D6": {
+     "n": 17,
+     "wave_min_um": 4.4336628913879395,
+     "wave_max_um": 4.977116107940674,
+     "contamination": {
+      "BLOOM": 0.941,
+      "HALO": 0.059,
+      "masked_pixel_fraction": 0.143
+     },
+     "noise": 0.012205123901367188
+    },
+    "all": {
+     "n": 117,
+     "unit": "S/N",
+     "noise": 1.0,
+     "wave_min_um": 0.75,
+     "wave_max_um": 5.0
+    }
+   }
+  },
+  {
+   "index": 6,
+   "mjd_start": 61305.628021,
+   "mjd_end": 61305.629353,
+   "mjd_mid": 61305.628687,
+   "date_start": "2026-09-22",
+   "date_end": "2026-09-22",
+   "date_mid": "2026-09-22",
+   "year_mid": 2026.72501010137,
+   "n_exposures": 2,
+   "collections": [
+    "spherex_qr3"
+   ],
+   "detectors": {
+    "D1": 0,
+    "D2": 1,
+    "D3": 0,
+    "D4": 0,
+    "D5": 1,
+    "D6": 0
+   },
+   "bands": {
+    "D2": {
+     "n": 1,
+     "wave_min_um": 1.511185646057129,
+     "wave_max_um": 1.511185646057129,
+     "contamination": {
+      "BLOOM": 1.0,
+      "masked_pixel_fraction": 0.605
+     },
+     "noise": 0.023175597190856934
+    },
+    "D5": {
+     "n": 1,
+     "wave_min_um": 4.290425777435303,
+     "wave_max_um": 4.290425777435303,
+     "contamination": {
+      "BLOOM": 1.0,
+      "masked_pixel_fraction": 0.185
+     },
+     "noise": 0.039311762899160385
+    },
+    "all": {
+     "n": 2,
+     "unit": "S/N",
+     "noise": 1.0,
+     "wave_min_um": 0.75,
+     "wave_max_um": 5.0
+    }
+   }
+  }
+ ]
+}

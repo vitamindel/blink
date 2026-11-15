@@ -1,0 +1,19 @@
+astropy==8.0.2
+astroquery==0.4.11
+fastapi==0.162.7
+httpx==0.28.1
+matplotlib==3.11.2
+numpy==2.0.2
+onnx==1.23.2
+onnxruntime==1.32.0
+pandas==3.1.1
+photutils==3.0.0
+pillow==13.0.0
+pyvo==1.10.0
+reproject==0.21.0
+requests==2.34.2
+scikit-learn==1.9.1
+scipy==1.17.1
+tenacity==9.2.1
+uvicorn==0.54.0
+# PyTorch is only needed to (re)train the CNN: pip install torch --index-url https://download.pytorch.org/whl/cpu

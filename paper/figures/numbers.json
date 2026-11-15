@@ -1,0 +1,101 @@
+{
+ "targets": [
+  {
+   "slug": "barnards-star",
+   "epochs": 5,
+   "exposures_in_epochs": 354,
+   "sources": 324,
+   "measured": 138,
+   "gaia_n": 134,
+   "gaia_scatter": 122.8641295705887,
+   "n_candidates": 293,
+   "n_above_09": 4,
+   "pair": {
+    "a_year": 2025.6497615438102,
+    "b_year": 2026.6386203440115
+   },
+   "catalog_pm": 10393.348518010785,
+   "pm": 10109.299941295443,
+   "epm": 1532.258691159808,
+   "pm_sig": 6.597645684517828,
+   "gaia_pm": 10393.348722273944
+  },
+  {
+   "slug": "eps-indi-b",
+   "epochs": 6,
+   "exposures_in_epochs": 456,
+   "sources": 178,
+   "measured": 100,
+   "gaia_n": 64,
+   "gaia_scatter": 113.07042908123331,
+   "n_candidates": 156,
+   "n_above_09": 2,
+   "pair": {
+    "a_year": 2025.3239333747294,
+    "b_year": 2026.73925608242
+   },
+   "catalog_pm": 4684.164914342043,
+   "pm": 5039.6968518494805,
+   "epm": 393.6940874600471,
+   "pm_sig": 12.801047850028786,
+   "gaia_pm": 4684.164530277503
+  },
+  {
+   "slug": "wise-0855",
+   "epochs": 4,
+   "exposures_in_epochs": 258,
+   "sources": 196,
+   "measured": 112,
+   "gaia_n": 87,
+   "gaia_scatter": 131.60664711074864,
+   "n_candidates": 168,
+   "n_above_09": 5,
+   "pair": {
+    "a_year": 2025.3431102283105,
+    "b_year": 2026.3313085924383
+   },
+   "catalog_pm": 8151.5458613688725
+  },
+  {
+   "slug": "rw-aurigae",
+   "epochs": 3,
+   "exposures_in_epochs": 335,
+   "sources": 296,
+   "measured": 141,
+   "gaia_n": 136,
+   "gaia_scatter": 122.04022639341676,
+   "n_candidates": 260,
+   "n_above_09": 2,
+   "pair": {
+    "a_year": 2025.690930673997,
+    "b_year": 2026.6948763026771
+   },
+   "catalog_pm": 21.577344600297785
+  },
+  {
+   "slug": "r-draconis",
+   "epochs": 15,
+   "exposures_in_epochs": 539,
+   "sources": 146,
+   "measured": 66,
+   "gaia_n": 47,
+   "gaia_scatter": 172.44276011733257,
+   "n_candidates": 127,
+   "n_above_09": 0,
+   "pair": {
+    "a_year": 2025.4369269668607,
+    "b_year": 2025.8608035167401
+   },
+   "catalog_pm": 21.539351197285402
+  }
+ ],
+ "gaia": {
+  "n_sources": 468,
+  "pull_median": 0.027719607251326266,
+  "pull_nmad": 0.4225513263759509,
+  "resid_median_mas": 7.207170904719315,
+  "resid_nmad_mas": 127.32678363109957,
+  "frac_within_3sigma": 0.9989316239316239
+ },
+ "static_fp_05": 0.0165016501650165
+}
