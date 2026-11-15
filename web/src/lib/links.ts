@@ -6,5 +6,5 @@ export const LINKS = {
   /** the Canva deck */
   presentation: "https://canva.link/71g5htsd83htaa7" as string | null,
   /** the demo video */
-  video: "https://youtu.be/dxx1mqeylaY" as string | null,
+  video: "https://youtu.be/54Al6fhks8w" as string | null,
 };
